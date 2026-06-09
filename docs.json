@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "almond",
+  "theme": "mint",
   "name": "TaskifAI Documentation",
   "description": "Everything you need to evaluate, trust, and get started with TaskifAI — the sell-out intelligence platform for beauty and fragrance brands.",
   "colors": {
@@ -28,7 +28,7 @@
   },
   "footer": {
     "socials": {
-      "linkedin": "https://linkedin.com/company/taskifai"
+      "linkedin": "https://linkedin.com/company/taskif-ai"
     },
     "links": [
       {
@@ -129,5 +129,12 @@
         ]
       }
     ]
+  },
+  "appearance": {
+    "default": "light",
+    "strict": true
+  },
+  "fonts": {
+    "family": "Inter"
   }
 }

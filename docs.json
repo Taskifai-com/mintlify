@@ -75,12 +75,15 @@
     },
     "groups": [
       {
-        "group": "Overview",
-        "icon": "compass",
+        "group": "Get Started",
+        "icon": "rocket",
         "pages": [
           "index",
           "overview/what-is-taskifai",
-          "overview/how-it-works"
+          "overview/how-it-works",
+          "get-started/onboarding",
+          "get-started/pricing",
+          "resources/faq"
         ]
       },
       {
@@ -88,44 +91,17 @@
         "icon": "grid-2x2",
         "pages": [
           "product/features",
-          "product/verticals"
-        ]
-      },
-      {
-        "group": "Get started",
-        "icon": "rocket",
-        "pages": [
-          "get-started/onboarding",
-          "get-started/pricing"
-        ]
-      },
-      {
-        "group": "Customers",
-        "icon": "award",
-        "pages": [
+          "product/verticals",
           "customers/bibbi-parfum"
         ]
       },
       {
-        "group": "Trust & security",
+        "group": "Trust & Legal",
         "icon": "shield-check",
         "pages": [
-          "trust/security"
-        ]
-      },
-      {
-        "group": "Legal",
-        "icon": "scale",
-        "pages": [
+          "trust/security",
           "legal/terms-of-service",
           "legal/privacy-policy"
-        ]
-      },
-      {
-        "group": "Resources",
-        "icon": "circle-question",
-        "pages": [
-          "resources/faq"
         ]
       }
     ]

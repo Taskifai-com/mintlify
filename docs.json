@@ -1,22 +1,57 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "almond",
-  "name": "Product Guide",
-  "description": "Step-by-step guides for every product—platform setup, analytics, and integrations in one place.",
+  "name": "TaskifAI Documentation",
+  "description": "Everything you need to evaluate, trust, and get started with TaskifAI — the sell-out intelligence platform for beauty and fragrance brands.",
   "colors": {
-    "primary": "#166E3F",
-    "light": "#26BD6C",
-    "dark": "#166E3F"
+    "primary": "#1B2A6B",
+    "light": "#2DD4BF",
+    "dark": "#0F1117"
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
   },
   "favicon": "/favicon.ico",
+  "navbar": {
+    "links": [
+      {
+        "label": "Website",
+        "href": "https://taskifai.com"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Book a Demo",
+      "href": "https://taskifai.com/book-demo"
+    }
+  },
+  "footer": {
+    "socials": {
+      "linkedin": "https://linkedin.com/company/taskifai"
+    },
+    "links": [
+      {
+        "header": "Product",
+        "items": [
+          { "label": "Fragrance", "href": "https://taskifai.com/fragrance" },
+          { "label": "Beauty", "href": "https://taskifai.com/beauty" }
+        ]
+      },
+      {
+        "header": "Company",
+        "items": [
+          { "label": "Book a Demo", "href": "https://taskifai.com/book-demo" },
+          { "label": "Contact", "href": "mailto:hello@taskifai.com" }
+        ]
+      }
+    ]
+  },
   "icons": {
     "library": "lucide"
   },
   "styling": {
     "eyebrows": "breadcrumbs"
-  },
-  "contextual": {
-    "options": ["copy", "view", "assistant", "mcp", "add-mcp"]
   },
   "navigation": {
     "global": {
@@ -27,71 +62,72 @@
           "href": "/"
         },
         {
-          "anchor": "Changelog",
-          "icon": "scroll-text",
-          "href": "https://www.mintlify.com/docs/changelog"
+          "anchor": "Book a Demo",
+          "icon": "calendar",
+          "href": "https://taskifai.com/book-demo"
         },
         {
-          "anchor": "Help",
-          "icon": "life-buoy",
-          "href": "https://www.mintlify.com/docs/contact-support"
+          "anchor": "Website",
+          "icon": "globe",
+          "href": "https://taskifai.com"
         }
       ]
     },
-    "directory": "card",
     "groups": [
       {
-        "group": "Platform",
-        "icon": "layers",
-        "expanded": true,
+        "group": "Overview",
+        "icon": "compass",
         "pages": [
-          "platform/quickstart",
-          "platform/key-concepts",
-          "platform/configuration/settings",
-          "platform/configuration/user-management",
-          "platform/administration/roles-permissions"
+          "index",
+          "overview/what-is-taskifai",
+          "overview/how-it-works"
         ]
       },
       {
-        "group": "Analytics",
-        "icon": "chart-bar",
-        "expanded": true,
+        "group": "Product",
+        "icon": "grid-2x2",
         "pages": [
-          "analytics/quickstart",
-          "analytics/connect-data",
-          "analytics/dashboards/create-dashboard",
-          "analytics/reports/scheduled-reports"
+          "product/features",
+          "product/verticals"
         ]
       },
       {
-        "group": "Integrations",
-        "icon": "plug",
-        "expanded": true,
+        "group": "Get started",
+        "icon": "rocket",
         "pages": [
-          "integrations/quickstart",
-          "integrations/authentication",
-          "integrations/connectors/crm",
-          "integrations/webhooks/configure"
+          "get-started/onboarding",
+          "get-started/pricing"
+        ]
+      },
+      {
+        "group": "Customers",
+        "icon": "award",
+        "pages": [
+          "customers/bibbi-parfum"
+        ]
+      },
+      {
+        "group": "Trust & security",
+        "icon": "shield-check",
+        "pages": [
+          "trust/security"
+        ]
+      },
+      {
+        "group": "Legal",
+        "icon": "scale",
+        "pages": [
+          "legal/terms-of-service",
+          "legal/privacy-policy"
+        ]
+      },
+      {
+        "group": "Resources",
+        "icon": "circle-question",
+        "pages": [
+          "resources/faq"
         ]
       }
     ]
-  },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/yourcompany",
-      "linkedin": "https://linkedin.com/company/yourcompany"
-    }
   }
 }

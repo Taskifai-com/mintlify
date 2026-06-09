@@ -1,0 +1,43 @@
+---
+title: "Security & data sovereignty"
+sidebarTitle: "Security"
+description: "How TaskifAI protects your most confidential data."
+icon: "shield-check"
+---
+
+Security is a core product feature. Reseller data contains margins, velocities, and channel strategies that are genuinely confidential, and we treat it that way.
+
+## The No-Train guarantee
+
+Your data is processed in isolated sessions via the Anthropic enterprise API. It is **never** used to train AI models, ours or our providers'. When you send a query, relevant data is retrieved, anonymized where possible, and sent to the model within a transient context window. It is not retained by the model provider.
+
+## At a glance
+
+| Feature | Detail |
+|---|---|
+| No-Train guarantee | Data processed in isolated sessions via Anthropic enterprise API; never trains AI models |
+| European residency | DigitalOcean Germany and Netherlands; HQ in Malmö, Sweden |
+| Encryption | AES-256 at rest, TLS 1.3 in transit |
+| Row-level security | Mathematical isolation; no query can access another customer's data |
+| NDA | Mutual NDA executed before any data integration |
+| Certifications | SOC 2 Type II, ISO 27001, GDPR compliant, Anthropic Enterprise |
+
+## European data residency
+
+All data is hosted in EU-based data centers (DigitalOcean Germany and Netherlands) for full GDPR compliance. TaskifAI is headquartered in Malmö, Sweden.
+
+## Subprocessors
+
+| Provider | Purpose | Location | Transfer mechanism |
+|---|---|---|---|
+| DigitalOcean | Cloud hosting & infrastructure | Europe (Germany/Netherlands) | Intra-EEA |
+| Supabase | Database & authentication | Europe | Intra-EEA |
+| Anthropic | AI intelligence provider | US | EU-US Data Privacy Framework / SCCs |
+
+## Need our DPA or certifications?
+
+We share the Data Processing Agreement, SOC 2 report, and ISO 27001 certificate on request. Your legal and security teams can reach us directly.
+
+<Card title="Request security documents" icon="envelope" href="mailto:security@taskifai.com" horizontal>
+  security@taskifai.com
+</Card>

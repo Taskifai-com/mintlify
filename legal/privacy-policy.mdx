@@ -1,0 +1,62 @@
+---
+title: "Privacy Policy"
+sidebarTitle: "Privacy Policy"
+description: "How TaskifAI collects, uses, and safeguards your information."
+icon: "lock"
+---
+
+<Info>
+Effective date: December 2025. Data Controller: TaskifAI, Styrbordsgatan 6, 21647 Limhamn, Malmö, Sweden. Contact: security@taskifai.com
+</Info>
+
+## 1. Introduction
+
+TaskifAI ("we", "us") is committed to protecting the privacy and security of your brand intelligence. This Privacy Policy outlines how we collect, use, and safeguard your information.
+
+## 2. The data we collect
+
+### 2.1 Account information
+
+We collect data necessary to manage your account, including name and email address, billing information (processed via our payment provider), and company details.
+
+### 2.2 Brand intelligence data (client data)
+
+This includes the proprietary datasets you upload for analysis (sales metrics, strategy docs, etc.). We process this data strictly as a Data Processor on your behalf (see Section 4).
+
+## 3. How we use AI (strict usage policy)
+
+We distinguish ourselves through a privacy-first AI architecture:
+
+1. **Isolation:** Your data is processed in isolated logical environments.
+2. **No training:** We do not use your Brand Intelligence Data to train our foundation models or those of our third-party providers (e.g. Anthropic).
+3. **Stateless processing:** When you send a query, relevant data is retrieved, anonymized where possible by our Analyst Agent, and sent to the LLM within a transient context window. It is not stored by the LLM provider.
+4. **Automated decision making:** We do not use your personal data for automated decision-making that produces legal effects concerning you (per GDPR Art. 22).
+
+## 4. Infrastructure and subprocessors
+
+We have Data Processing Agreements (DPAs) in place with all listed providers.
+
+| Provider | Purpose | Location | Transfer mechanism |
+|---|---|---|---|
+| DigitalOcean | Cloud hosting & infrastructure | Europe (Germany/Netherlands) | Intra-EEA transfer |
+| Supabase | Database & authentication | Europe | Intra-EEA transfer |
+| Anthropic | AI intelligence provider | US | EU-US Data Privacy Framework / SCCs |
+
+## 5. Security measures
+
+- **Encryption:** AES-256 at rest and TLS 1.3 in transit.
+- **Row-Level Security (RLS):** Database isolation ensuring tenants cannot access each other's data.
+- **Access control:** Strict internal access policies based on least privilege.
+- **Audit logging:** We maintain logs of system access to detect anomalies.
+
+## 6. Your rights (GDPR)
+
+Under the GDPR you have the right to access, rectification, erasure (right to be forgotten), portability, and to object to processing based on legitimate interests. To exercise these rights, contact security@taskifai.com.
+
+## 7. Data retention
+
+We retain your data only as long as your account is active. Upon account cancellation, Brand Intelligence Data is deleted from our active databases within 30 days. Backups are cycled according to our disaster recovery schedule and then overwritten.
+
+## 8. Changes to this policy
+
+We may update this policy to reflect changes in our technology or legal requirements. We will notify you of significant changes via email or dashboard notification.
